@@ -57,7 +57,7 @@ export class MyMCP extends McpAgent {
 		);
 
 	      // Simple tool with parameters
-		server.tool(
+		this.server.tool(
 		  "calculate-bmi",
 		  {
 		    weightKg: z.number(),
